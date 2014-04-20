@@ -21,11 +21,11 @@ labelMarquee.viewToScroll = label;
 [labelMarquee beginScrolling];
 ```
 
-###Background
+Background
 -------
 `DVOMarqueeView` was built during the creation of [Diveo](http://appstore.com/diveo), an iOS app that lets you share beautiful videos with friends.
 
-###Contact
+Contact
 -------
 **Diveo** | [www.diveo.co](www.diveo.co) | [@diveoapp](https://twitter.com/diveoapp)
 
