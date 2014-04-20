@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0484926C190444C5001E508A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0484926B190444C5001E508A /* Foundation.framework */; };
+		0484926E190444C5001E508A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0484926D190444C5001E508A /* CoreGraphics.framework */; };
+		04849270190444C5001E508A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0484926F190444C5001E508A /* UIKit.framework */; };
+		04849276190444C5001E508A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04849274190444C5001E508A /* InfoPlist.strings */; };
+		04849278190444C5001E508A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04849277190444C5001E508A /* main.m */; };
+		0484927C190444C5001E508A /* DVOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0484927B190444C5001E508A /* DVOAppDelegate.m */; };
+		0484927E190444C5001E508A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0484927D190444C5001E508A /* Images.xcassets */; };
+		04849285190444C5001E508A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04849284190444C5001E508A /* XCTest.framework */; };
+		04849286190444C5001E508A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0484926B190444C5001E508A /* Foundation.framework */; };
+		04849287190444C5001E508A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0484926F190444C5001E508A /* UIKit.framework */; };
+		0484928F190444C5001E508A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0484928D190444C5001E508A /* InfoPlist.strings */; };
+		04849291190444C5001E508A /* ScrollingMarqueeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04849290190444C5001E508A /* ScrollingMarqueeTests.m */; };
+		0484929F190447B6001E508A /* DVOMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0484929E190447B6001E508A /* DVOMarqueeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04849288190444C5001E508A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04849260190444C5001E508A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04849267190444C5001E508A;
+			remoteInfo = ScrollingMarquee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04849268190444C5001E508A /* ScrollingMarquee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollingMarquee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0484926B190444C5001E508A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0484926D190444C5001E508A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0484926F190444C5001E508A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04849273190444C5001E508A /* ScrollingMarquee-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollingMarquee-Info.plist"; sourceTree = "<group>"; };
+		04849275190444C5001E508A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04849277190444C5001E508A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04849279190444C5001E508A /* ScrollingMarquee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollingMarquee-Prefix.pch"; sourceTree = "<group>"; };
+		0484927A190444C5001E508A /* DVOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVOAppDelegate.h; sourceTree = "<group>"; };
+		0484927B190444C5001E508A /* DVOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVOAppDelegate.m; sourceTree = "<group>"; };
+		0484927D190444C5001E508A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04849283190444C5001E508A /* ScrollingMarqueeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingMarqueeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04849284190444C5001E508A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0484928C190444C5001E508A /* ScrollingMarqueeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollingMarqueeTests-Info.plist"; sourceTree = "<group>"; };
+		0484928E190444C5001E508A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04849290190444C5001E508A /* ScrollingMarqueeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollingMarqueeTests.m; sourceTree = "<group>"; };
+		0484929D190447B6001E508A /* DVOMarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVOMarqueeView.h; path = ../../DVOMarqueeView.h; sourceTree = "<group>"; };
+		0484929E190447B6001E508A /* DVOMarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DVOMarqueeView.m; path = ../../DVOMarqueeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04849265190444C5001E508A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0484926E190444C5001E508A /* CoreGraphics.framework in Frameworks */,
+				04849270190444C5001E508A /* UIKit.framework in Frameworks */,
+				0484926C190444C5001E508A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04849280190444C5001E508A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04849285190444C5001E508A /* XCTest.framework in Frameworks */,
+				04849287190444C5001E508A /* UIKit.framework in Frameworks */,
+				04849286190444C5001E508A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0484925F190444C5001E508A = {
+			isa = PBXGroup;
+			children = (
+				04849271190444C5001E508A /* ScrollingMarquee */,
+				0484928A190444C5001E508A /* ScrollingMarqueeTests */,
+				0484926A190444C5001E508A /* Frameworks */,
+				04849269190444C5001E508A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04849269190444C5001E508A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04849268190444C5001E508A /* ScrollingMarquee.app */,
+				04849283190444C5001E508A /* ScrollingMarqueeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0484926A190444C5001E508A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0484926B190444C5001E508A /* Foundation.framework */,
+				0484926D190444C5001E508A /* CoreGraphics.framework */,
+				0484926F190444C5001E508A /* UIKit.framework */,
+				04849284190444C5001E508A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04849271190444C5001E508A /* ScrollingMarquee */ = {
+			isa = PBXGroup;
+			children = (
+				0484927A190444C5001E508A /* DVOAppDelegate.h */,
+				0484927B190444C5001E508A /* DVOAppDelegate.m */,
+				048492A0190447B9001E508A /* DVOMarqueeView */,
+				04849272190444C5001E508A /* Supporting Files */,
+			);
+			path = ScrollingMarquee;
+			sourceTree = "<group>";
+		};
+		04849272190444C5001E508A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0484927D190444C5001E508A /* Images.xcassets */,
+				04849273190444C5001E508A /* ScrollingMarquee-Info.plist */,
+				04849274190444C5001E508A /* InfoPlist.strings */,
+				04849277190444C5001E508A /* main.m */,
+				04849279190444C5001E508A /* ScrollingMarquee-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0484928A190444C5001E508A /* ScrollingMarqueeTests */ = {
+			isa = PBXGroup;
+			children = (
+				04849290190444C5001E508A /* ScrollingMarqueeTests.m */,
+				0484928B190444C5001E508A /* Supporting Files */,
+			);
+			path = ScrollingMarqueeTests;
+			sourceTree = "<group>";
+		};
+		0484928B190444C5001E508A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0484928C190444C5001E508A /* ScrollingMarqueeTests-Info.plist */,
+				0484928D190444C5001E508A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		048492A0190447B9001E508A /* DVOMarqueeView */ = {
+			isa = PBXGroup;
+			children = (
+				0484929D190447B6001E508A /* DVOMarqueeView.h */,
+				0484929E190447B6001E508A /* DVOMarqueeView.m */,
+			);
+			name = DVOMarqueeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04849267190444C5001E508A /* ScrollingMarquee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04849294190444C5001E508A /* Build configuration list for PBXNativeTarget "ScrollingMarquee" */;
+			buildPhases = (
+				04849264190444C5001E508A /* Sources */,
+				04849265190444C5001E508A /* Frameworks */,
+				04849266190444C5001E508A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollingMarquee;
+			productName = ScrollingMarquee;
+			productReference = 04849268190444C5001E508A /* ScrollingMarquee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04849282190444C5001E508A /* ScrollingMarqueeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04849297190444C5001E508A /* Build configuration list for PBXNativeTarget "ScrollingMarqueeTests" */;
+			buildPhases = (
+				0484927F190444C5001E508A /* Sources */,
+				04849280190444C5001E508A /* Frameworks */,
+				04849281190444C5001E508A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04849289190444C5001E508A /* PBXTargetDependency */,
+			);
+			name = ScrollingMarqueeTests;
+			productName = ScrollingMarqueeTests;
+			productReference = 04849283190444C5001E508A /* ScrollingMarqueeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04849260190444C5001E508A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DVO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Diveo;
+				TargetAttributes = {
+					04849282190444C5001E508A = {
+						TestTargetID = 04849267190444C5001E508A;
+					};
+				};
+			};
+			buildConfigurationList = 04849263190444C5001E508A /* Build configuration list for PBXProject "ScrollingMarquee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0484925F190444C5001E508A;
+			productRefGroup = 04849269190444C5001E508A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04849267190444C5001E508A /* ScrollingMarquee */,
+				04849282190444C5001E508A /* ScrollingMarqueeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04849266190444C5001E508A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04849276190444C5001E508A /* InfoPlist.strings in Resources */,
+				0484927E190444C5001E508A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04849281190444C5001E508A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0484928F190444C5001E508A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04849264190444C5001E508A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0484927C190444C5001E508A /* DVOAppDelegate.m in Sources */,
+				0484929F190447B6001E508A /* DVOMarqueeView.m in Sources */,
+				04849278190444C5001E508A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0484927F190444C5001E508A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04849291190444C5001E508A /* ScrollingMarqueeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04849289190444C5001E508A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04849267190444C5001E508A /* ScrollingMarquee */;
+			targetProxy = 04849288190444C5001E508A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04849274190444C5001E508A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04849275190444C5001E508A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0484928D190444C5001E508A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0484928E190444C5001E508A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04849292190444C5001E508A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04849293190444C5001E508A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04849295190444C5001E508A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollingMarquee/ScrollingMarquee-Prefix.pch";
+				INFOPLIST_FILE = "ScrollingMarquee/ScrollingMarquee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04849296190444C5001E508A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollingMarquee/ScrollingMarquee-Prefix.pch";
+				INFOPLIST_FILE = "ScrollingMarquee/ScrollingMarquee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04849298190444C5001E508A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScrollingMarquee.app/ScrollingMarquee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollingMarquee/ScrollingMarquee-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ScrollingMarqueeTests/ScrollingMarqueeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04849299190444C5001E508A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScrollingMarquee.app/ScrollingMarquee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollingMarquee/ScrollingMarquee-Prefix.pch";
+				INFOPLIST_FILE = "ScrollingMarqueeTests/ScrollingMarqueeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04849263190444C5001E508A /* Build configuration list for PBXProject "ScrollingMarquee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04849292190444C5001E508A /* Debug */,
+				04849293190444C5001E508A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04849294190444C5001E508A /* Build configuration list for PBXNativeTarget "ScrollingMarquee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04849295190444C5001E508A /* Debug */,
+				04849296190444C5001E508A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04849297190444C5001E508A /* Build configuration list for PBXNativeTarget "ScrollingMarqueeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04849298190444C5001E508A /* Debug */,
+				04849299190444C5001E508A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04849260190444C5001E508A /* Project object */;
+}
