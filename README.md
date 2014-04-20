@@ -27,7 +27,7 @@ Background
 
 Contact
 -------
-**Diveo** | [www.diveo.co](www.diveo.co) | [@diveoapp](https://twitter.com/diveoapp)
+**Diveo** | [www.diveo.co](http://www.diveo.co) | [@diveoapp](https://twitter.com/diveoapp)
 
 **Mo Bitar** | [@bitario](https://twitter.com/bitario)
 
