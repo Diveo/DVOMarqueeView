@@ -1,15 +1,12 @@
 #DVOMarqueeView
-====
 
 A lightweight view that adds marquee scrolling to any view.
 
 Sample
 -------
-<br>
 
 <img src="./Demo/demo.gif" align="middle" width="280" />
 
-<br>
 ####Usage:
 
 ```objective-c
@@ -25,4 +22,14 @@ labelMarquee.viewToScroll = label;
 ```
 
 ###Background
-DVOMarqueeView was built during the creation of [Diveo](http://appstore.com/diveo), an iOS app that lets you share beautiful videos with friends.
+-------
+`DVOMarqueeView` was built during the creation of [Diveo](http://appstore.com/diveo), an iOS app that lets you share beautiful videos with friends.
+
+###Contact
+-------
+**Diveo** | [www.diveo.co](www.diveo.co) | [@diveoapp](https://twitter.com/diveoapp)
+
+**Mo Bitar** | [@bitario](https://twitter.com/bitario)
+
+
+
