@@ -31,5 +31,6 @@ Contact
 
 **Mo Bitar** | [@bitario](https://twitter.com/bitario)
 
-
-
+License
+-------
+DVOMarqueeView is available under the MIT license.
